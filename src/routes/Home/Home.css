@@ -1,0 +1,90 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.home_page {
+  left: 10%;
+}
+.home h1 {
+  color: #fff;
+  font-family: 'Leckerli One', cursive;
+  weight: 400;
+
+  font-size: 80.52px;
+  line-height: 73.6px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.app-btn {
+  width: 45%;
+  max-width: 170px;
+  color: #fff;
+  margin: 20px 10px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.blu {
+  background-color: #101010;
+  transition: background-color 0.25s linear;
+}
+
+.app-btn blu:hover {
+  background-color: #454545;
+}
+
+.app-btn i {
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  font-size: 28px;
+  margin-right: 7px;
+}
+
+.app-btn big-txt {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.app {
+  &-btn {
+    width: 45%;
+    max-width: 160px;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    &.blu {
+      background-color: #101010;
+      transition: background-color 0.25s linear;
+      &:hover {
+        background-color: #454545;
+      }
+    }
+    i {
+      width: 20%;
+      text-align: center;
+      font-size: 28px;
+      margin-right: 7px;
+    }
+    .big-txt {
+      font-size: 17px;
+      text-transform: capitalize;
+    }
+  }
+}

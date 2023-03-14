@@ -1,0 +1,70 @@
+.footer {
+  bottom: 0;
+  left: 0;
+  top: 70%;
+  height: 14vh;
+  margin-left: 0;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  /* background: black; */
+  background-color: hsla(0, 0%, 0%, 0.64);
+}
+
+.footer span {
+  background: yellow;
+  font-size: 25px;
+  letter-spacing: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.main-content {
+  position: absolute;
+}
+
+/* .logo {
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .ct-footer-post {
+  background: #000;
+  padding: 30px 0;
+}
+.ct-footer-post .inner-left,
+.ct-footer-post .inner-right {
+  padding: 20px 0;
+}
+.ct-footer-post ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 -20px;
+}
+.ct-footer-post ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.ct-footer-post a {
+  color: #fff;
+}
+.ct-footer-post p {
+  color: #fff;
+} */
+
+/* .sociallogos {
+  padding: 20px 0;
+}
+
+.sociallogos .logobox a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+} */
+
+.social a {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
